@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="Solution" android:id="@+id/action_solution"/>
+    <item android:title="Service"  android:id="@+id/action_service"/>
+    <item android:title="About Us" android:id="@+id/action_about_us"/>
+    <item android:title="Mail" android:id="@+id/action_mail" android:icon="@drawable/ic_mail_24dp"
+          app:showAsAction="always"/>
+    <item android:title="Home" android:id="@+id/action_home" android:icon="@drawable/ic_home_24dp"
+          app:showAsAction="always"/>
+</menu>

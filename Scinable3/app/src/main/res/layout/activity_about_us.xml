@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".About_usActivity">
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="80dp"
+                        android:background="@color/oldLace"
+                        android:orientation="vertical">
+
+                    <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="10dp"
+                            android:text="株式会社シナブルのミッション"
+                            android:textColor="@color/Black"
+                            android:textSize="25dp"
+                            android:textStyle="bold" />
+
+                    <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="5dp"
+                            android:text="顧客の購買体験をより良くし、EC事業の成功に貢献する"
+                            android:textColor="@color/gray"
+                            android:textSize="16dp"
+                            android:textStyle="italic" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="120dp"
+                        android:background="@color/oldLace"
+                        android:orientation="vertical">
+
+                    <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="2dp"
+                            android:layout_marginTop="20dp"
+                            android:text="¶ ツールの提供だけでなく、お客様と一緒に考え行動します。"
+                            android:textColor="@color/Black"
+                            android:textSize="14dp"
+                            android:textStyle="normal" />
+
+                    <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="2dp"
+                            android:layout_marginTop="5dp"
+                            android:text="¶ 実質的な価値の高いシステムをリーズナブルに提供します。"
+                            android:textColor="@color/Black"
+                            android:textSize="14dp"
+                            android:textStyle="normal" />
+
+                    <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="2dp"
+                            android:layout_marginTop="5dp"
+                            android:text="¶ お客様のニーズ、テクノロジーの発展とともに常に成長し続けます。"
+                            android:textColor="@color/Black"
+                            android:textSize="14dp"
+                            android:textStyle="normal" />
+                </LinearLayout>
+
+                <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@color/oldLace"
+                        android:orientation="vertical">
+
+                    <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="23dp"
+                            android:layout_marginTop="30dp"
+                            android:orientation="horizontal">
+
+                        <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="5dp"
+                                android:text="社名:"
+                                android:textColor="@color/Black"
+                                android:textSize="20dp"
+                                android:textStyle="italic" />
+
+                        <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="15dp"
+                                android:text="株式会社シナブル（Scinable Co.,Ltd.)"
+                                android:textColor="@color/gray"
+                                android:textSize="20dp"
+                                android:textStyle="italic" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="23dp"
+                            android:layout_marginTop="5dp"
+                            android:orientation="horizontal">
+
+                        <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="5dp"
+                                android:text="代表者:"
+                                android:textColor="@color/Black"
+                                android:textSize="20dp"
+                                android:textStyle="italic" />
+
+                        <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="15dp"
+                                android:text="代表取締役社長　小林 裕紀"
+                                android:textColor="@color/gray"
+                                android:textSize="20dp"
+                                android:textStyle="italic" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:layout_marginTop="5dp"
+                            android:orientation="horizontal">
+
+                        <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="5dp"
+                                android:text="住所:"
+                                android:textColor="@color/Black"
+                                android:textSize="20dp"
+                                android:textStyle="italic" />
+
+                        <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="vertical">
+
+                            <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="15dp"
+                                    android:text="東京都豊島区池袋2丁目61-8アゼリア"
+                                    android:textColor="@color/gray"
+                                    android:textSize="20dp"
+                                    android:textStyle="italic" />
+
+                            <LinearLayout
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="horizontal">
+
+                                <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginLeft="15dp"
+                                        android:text="青新ビル303号"
+                                        android:textColor="@color/gray"
+                                        android:textSize="20dp"
+                                        android:textStyle="italic" />
+
+                                <TextView
+                                        android:id="@+id/copyButton"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginLeft="50dp"
+                                        android:drawableStart="@drawable/ic_address_24dp"
+                                        android:drawableLeft="@drawable/ic_address_24dp"
+                                        android:text="copy"
+                                        android:textColor="@color/colorAccent"
+                                        android:textSize="20dp"
+                                        android:textStyle="bold" />
+                            </LinearLayout>
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="23dp"
+                            android:layout_marginTop="5dp"
+                            android:orientation="horizontal">
+
+                        <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="5dp"
+                                android:text="電話番号:"
+                                android:textColor="@color/Black"
+                                android:textSize="20dp"
+                                android:textStyle="italic" />
+
+                        <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="15dp"
+                                android:text="03-5937-5313"
+                                android:textColor="@color/gray"
+                                android:textSize="20dp"
+                                android:textStyle="italic" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="110dp"
+                            android:layout_marginTop="5dp"
+                            android:orientation="horizontal">
+
+                        <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="5dp"
+                                android:text="事業内容:"
+                                android:textColor="@color/Black"
+                                android:textSize="20dp"
+                                android:textStyle="italic" />
+
+                        <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="15dp"
+                                android:text="データ分析、キャンペーン管理ソフトウェアの開発・販売 eCommerce事業関連ソフトウェア開発・販売"
+                                android:textColor="@color/gray"
+                                android:textSize="20dp"
+                                android:textStyle="italic" />
+
+                    </LinearLayout>
+
+                    <FrameLayout
+                            android:id="@+id/mainFragment"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"></FrameLayout>
+
+                    <Button
+                            android:id="@+id/mailButton"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginBottom="10dp"
+                            android:background="@color/midNightPurple"
+                            android:drawableStart="@drawable/ic_mail_24dp"
+                            android:drawableLeft="@drawable/ic_mail_24dp"
+                            android:text="お問い合わせ"
+                            android:textColor="@color/white"
+                            android:textSize="23dp"
+                            android:textStyle="bold" />
+
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</RelativeLayout>

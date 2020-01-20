@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity">
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="@color/oldLace">
+            <ScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                    <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="180dp"
+                            android:orientation="vertical">
+                        <ImageView
+                                android:layout_width="230dp"
+                                android:layout_height="110dp"
+                                android:layout_gravity="center"
+                                android:src="@drawable/scinable"/>
+
+                        <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:text="All-in-one Marketing Automation"
+                                android:textColor="@color/Black"
+                                android:textSize="25dp"
+                                android:textStyle="italic"/>
+
+                        <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:text="for eCommerce"
+                                android:textColor="@color/Black"
+                                android:textSize="25dp"
+                                android:textStyle="italic"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical">
+
+                        <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="33dp"
+                                android:text="About us"
+                                android:textSize="30dp"
+                                android:textColor="@color/Black"
+                                android:textStyle="bold"/>
+
+                        <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="20dp"
+                                android:layout_marginTop="5dp"
+                                android:text="お客様の成功に貢献できるよう一歩ずつ成長していきます。"
+                                android:textSize="15dp"
+                                android:textColor="@color/Black"
+                                android:textStyle="normal"/>
+
+                        <Button
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginLeft="7dp"
+                                android:textSize="20dp"
+                                android:textStyle="bold"
+                                android:textColor="@color/white"
+                                android:background="@color/skyBlue"
+                                android:text="会社概要 ▶"
+                                android:id="@+id/aboutUsButton"/>
+
+                        <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="33dp"
+                                android:layout_marginTop="5dp"
+                                android:orientation="horizontal">
+                            <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="10dp"
+                                    android:text="Knowledge↓"
+                                    android:textSize="23dp"
+                                    android:textColor="@color/Black"
+                                    android:textStyle="bold"
+                                    android:id="@+id/knowledgeButton"/>
+
+                            <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="40dp"
+                                    android:text="Architecture↓"
+                                    android:textSize="23dp"
+                                    android:textColor="@color/Black"
+                                    android:textStyle="bold"
+                                    android:id="@+id/architectureButton"/>
+                        </LinearLayout>
+
+                        <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="105dp"
+                                android:orientation="vertical"
+                                android:id="@+id/knowledge">
+                            <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="5dp"
+                                    android:layout_marginLeft="5dp"
+                                    android:text="EC Intelligenceは、成長し続けるEC市場において15年以上、ECサイトの構築から運営まで幅広く大規模ECに関わってきたエンジニアと経営者がサービス開発しました。 EC事業を継続的に成長さていくために本当に必要なことは何なのか、事業の視点と技術の視点から追及してきました。"/>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="105dp"
+                                android:orientation="vertical"
+                                android:id="@+id/architecture">
+                            <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="5dp"
+                                    android:layout_marginLeft="5dp"
+                                    android:text="ただ機能を詰め込んでいくだけでは、EC事業者の本当のニーズに応えられるソフトウェアにはなりません。 機能同士が相乗効果を得るような掛け算のソフトウェアサービスになっています。きめ細かなサービス設定を効率よく合理的に実現可能です。"/>
+
+                        </LinearLayout>
+
+                        <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="39dp"
+                                android:layout_marginTop="5dp"
+                                android:text="Why Scinable?"
+                                android:textSize="30dp"
+                                android:textColor="@color/Black"
+                                android:textStyle="bold"/>
+
+                        <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="40dp"
+                                android:layout_marginTop="5dp"
+                                android:text="世界10か国、50を超えるサイトで利用されています。合計アカウント数2000万超、月間PV数2億を超えています。"
+                                android:textSize="15dp"
+                                android:textColor="@color/Black"
+                                android:textStyle="normal"/>
+
+                        <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="185dp"
+                                android:layout_gravity="center"
+                                android:src="@drawable/advantage"/>
+
+                        <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="70dp"
+                                android:orientation="horizontal">
+
+                            <Button
+                                    android:layout_width="180dp"
+                                    android:layout_height="60dp"
+                                    android:layout_marginLeft="20dp"
+                                    android:textStyle="bold"
+                                    android:textSize="27dp"
+                                    android:textColor="@color/white"
+                                    android:text="Solution"
+                                    android:background="@color/green"
+                                    android:id="@+id/solutionButton"/>
+
+                            <Button
+                                    android:layout_width="180dp"
+                                    android:layout_height="60dp"
+                                    android:layout_marginLeft="20dp"
+                                    android:textStyle="bold"
+                                    android:textSize="27dp"
+                                    android:textColor="@color/white"
+                                    android:text="Our Service"
+                                    android:background="@color/skyBlue"
+                                    android:id="@+id/ourServiceButton"/>
+                        </LinearLayout>
+                    </LinearLayout>
+                    <Button
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="3dp"
+                            android:layout_marginBottom="10dp"
+                            android:layout_gravity="center"
+                            android:background="@color/midNightPurple"
+                            android:drawableStart="@drawable/ic_mail_24dp"
+                            android:drawableLeft="@drawable/ic_mail_24dp"
+                            android:text="お問い合わせ"
+                            android:textSize="23dp"
+                            android:textColor="@color/white"
+                            android:textStyle="bold"
+                            android:id="@+id/mailButton"/>
+                </LinearLayout>
+            </ScrollView>
+    </LinearLayout>
+</RelativeLayout>

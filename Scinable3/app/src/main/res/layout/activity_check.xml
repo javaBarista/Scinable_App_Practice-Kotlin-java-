@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".CheckActivity">
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:background="@color/oldLace">
+
+                <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="70dp"
+                        android:orientation="vertical">
+                    <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="20dp"
+                            android:layout_gravity="center"
+                            android:textSize="25dp"
+                            android:text="個人情報利用目的通知書兼同意書"
+                            android:textColor="@color/Black"
+                            android:textStyle="bold"/>
+                </LinearLayout>
+
+                <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+                    <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="5dp"
+                            android:text="ａ）事業者の氏名：株式会社シナブル"
+                            android:textColor="@color/Black"
+                            android:textSize="15dp"
+                            android:textStyle="italic"/>
+
+                    <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="3dp"
+                            android:layout_marginLeft="5dp"
+                            android:text="ｂ）個人情報保護管理者または代理人の氏名または職名、所属および連絡先： 個人情報保護管理者: "
+                            android:textColor="@color/Black"
+                            android:textSize="15dp"
+                            android:textStyle="italic"/>
+                    <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="5dp"
+                            android:text="小林 裕紀 電話番号：03-5937-5313"
+                            android:textSize="15dp"
+                            android:textColor="@color/Black"
+                            android:textStyle="bold"/>
+                    <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="3dp"
+                            android:layout_marginLeft="5dp"
+                            android:text="c）利用の目的： ・お問合せの対応ため"
+                            android:textColor="@color/Black"
+                            android:textSize="15dp"
+                            android:textStyle="italic"/>
+                    <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="3dp"
+                            android:layout_marginLeft="5dp"
+                            android:text="d）個人情報を第三者に提供することが予定される場合の事項： 本人の同意がある場合または法令に基づく場合を除き、取得した個人情報を第三者に提供することはありません。"
+                            android:textColor="@color/Black"
+                            android:textSize="15dp"
+                            android:textStyle="italic"/>
+                    <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="3dp"
+                            android:layout_marginLeft="5dp"
+                            android:text="e）個人情報の取扱いの委託を行うことが予定される場合： 個人情報について当社が個人情報保護管理体制について一定の水準に達していると認めた委託者に業務委託の目的で委託することがあります。"
+                            android:textColor="@color/Black"
+                            android:textSize="15dp"
+                            android:textStyle="italic"/>
+                    <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="3dp"
+                            android:layout_marginLeft="5dp"
+                            android:text="f）開示対象個人情報の開示等および問合せ窓口について： ご本人からの求めにより、当社が保有する開示対象個人情報の利用目的の通知・開示・内容の訂正・追加または削除・利用の停止・消去および第三者への提供の停止（「開示等」といいます。）に応じます。開示等のお問合せは下記の連絡先までお願い致します。"
+                            android:textColor="@color/Black"
+                            android:textSize="15dp"
+                            android:textStyle="italic"/>
+                    <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="3dp"
+                            android:layout_marginLeft="5dp"
+                            android:text="g）本人が個人情報を与えることの任意性及び当該情報を与えなかった場合に本人に生じる結果： 個人情報の提供は任意と致しますが、当社が依頼する情報の提供がない場合、内容が正確でない場合はサービスの提供やご対応等に支障をきたす可能性がございますのでご了承下さい。"
+                            android:textColor="@color/Black"
+                            android:textSize="15dp"
+                            android:textStyle="italic"/>
+                    <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="3dp"
+                            android:layout_marginLeft="5dp"
+                            android:text="h）クッキーやウェブビーコン等を用いるなどして、本人が容易に認識できない方法による個人情報の取得は行っておりません。"
+                            android:textColor="@color/Black"
+                            android:textSize="15dp"
+                            android:textStyle="italic"/>
+                    <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="20dp"
+                            android:layout_marginLeft="5dp"
+                            android:text="個人情報に関する問合わせ窓口："
+                            android:textColor="@color/Black"
+                            android:textSize="15dp"
+                            android:textStyle="normal"/>
+                    <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="3dp"
+                            android:layout_marginLeft="5dp"
+                            android:orientation="horizontal">
+                        <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:text="個人情報保護管理者："
+                                android:textColor="@color/Black"
+                                android:textSize="15dp"
+                                android:textStyle="normal"/>
+                        <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="小林 裕紀"
+                                android:textColor="@color/Black"
+                                android:textSize="15dp"
+                                android:textStyle="bold"/>
+                    </LinearLayout>
+
+                    <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginTop="3dp"
+                            android:text="〒171-0014 東京都豊島区池袋2丁目61-8アゼリア青新ビル303号"
+                            android:textColor="@color/Black"
+                            android:textSize="15dp"
+                            android:textStyle="bold"/>
+                    <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="3dp"
+                            android:layout_marginLeft="5dp"
+                            android:orientation="horizontal">
+                        <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:text="TEL："
+                                android:textColor="@color/Black"
+                                android:textSize="15dp"
+                                android:textStyle="normal"/>
+                        <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="03-5937-5313"
+                                android:textColor="@color/Black"
+                                android:textSize="15dp"
+                                android:textStyle="bold"/>
+                    </LinearLayout>
+                </LinearLayout>
+
+                <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="15dp"
+                        android:layout_gravity="center"
+                        android:drawableStart="@drawable/ic_check_black_24dp"
+                        android:drawableLeft="@drawable/ic_check_black_24dp"
+                        android:text=" チェック"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="24dp"
+                        android:textStyle="bold"
+                        android:id="@+id/checkButton"/>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+</RelativeLayout>
