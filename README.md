@@ -1,5 +1,5 @@
 # Scinable_App_Practice-Kotlin&&java-
-> Scinable 어플리케이션 (Android Studio 연습용 앱) 
+> Scinable 어플리케이션 (Android Studio 연습용 앱)  
 ============
 해당 프로젝트는 android studio와 kotlin 작성을 위한 연습용 어플로 인턴십 진행 회사의 홈페이지를
 어플로 제작한 것이다. 또한 해당 어플은 코틀린 작성 어플로 추후 라이브러리 개발시 테스트용으로 사용할 예정이다.
